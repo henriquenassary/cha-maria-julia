@@ -1,0 +1,62 @@
+body {
+  font-family: 'Dosis', sans-serif;
+}
+
+.navbar {
+  background-color: blueviolet;
+}
+
+.header img{
+  height: 80vh;
+  width: 100%;
+  object-fit: cover;
+}
+
+.about h2 {
+  font-size: 48px;
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+.about p {
+  font-size: 18px;
+  line-height: 24px;
+}
+
+.about img {
+  max-height: 400px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.sorteio h2 {
+  font-size: 48px;
+  color: #6f42c1;
+  font-weight: bold;
+}
+
+[data-img="sorteio"] {
+  height: 400px;
+}
+
+[data-img="sorteio"].zoom-in {
+  height: 700px;
+}
+
+.btn-sorteio {
+  border: none;
+  background-color: #5eb2e6;
+  color: white;
+  border-radius: 3px;
+  text-transform: uppercase;
+  padding: .75rem 1rem;
+}
+
+.btn-lista-sorteio{
+  background-color: #005c54;
+  margin-top: 2rem;
+}
+
+.rodape {
+  padding: 10px;
+  background-color: #6f42c1;
+}

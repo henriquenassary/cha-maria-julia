@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <!-- Meta tags Obrigatórias -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link rel="icon" href="img/favicon.png" sizes="16x16">
+
+    <!-- CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
+    <link rel="stylesheet" type="text/css" href="css/style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Dosis:wght@300;400;700&display=swap" rel="stylesheet">
+    <title>Lista Sorteio Chá Maria Júlia</title>
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-indigo">
+      <div class="container">
+        <a class="navbar-brand" href="#">Chá Maria Júlia</a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse ms-auto" id="navbarSupportedContent">
+          <ul class="navbar-nav ml-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Início</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#historia">História</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Sorteio</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <header class="header">
+      <div>
+        <img class="img-fluid" src="img/header.jpg" alt="">
+      </div>
+    </header>
+
+    <section class="about container mt-5" id="historia">
+      <div class="row">
+        <div class="col">
+          <h2>História</h2>
+          <p>O papai Henrique e mamãe Letícia já estão juntos a mais de 9 anos, esse ano de 2021 foram abençoados com a gravidez da Maria Júlia, o parto está prevista para Março de 2022.
+          </p>
+          <p>Todos muito ansiosos para a chegada!</p>
+        </div>
+        <div class="col-auto text-right"> 
+          <img class="img-fluid" src="img/casal.jpg" alt="Casal">
+        </div>
+      </div>
+    </section>
+
+    <section class="mt-5 sorteio">
+      <div class="container text-center">
+        <div class="text-center my-3">
+          <h2>Sorteio</h2>
+          <div class="my-3">
+            <img src="img/cha-rifa.jpeg" alt="" class="img-fluid" height="400" data-img="sorteio">
+
+          </div>
+          <a href="https://api.whatsapp.com/send?phone=5517981323979&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20a%20rifa%20da%20Maria%20J%C3%BAlia!" target="blank">
+            <img src="img/wpp-logo.svg" alt="">
+          </a>
+          <a href="https://api.whatsapp.com/send?phone=5517981323979&text=Ol%C3%A1%2C%20gostaria%20de%20comprar%20a%20rifa%20da%20Maria%20J%C3%BAlia!">Compre a rifa agora!</a>
+        </div>
+        <button data-gera="numero" class="btn-sorteio">Gerar Numero Aleatorio</button>
+        <div class="numero-aleatorio"></div>
+        <div class="premiado"></div>
+      </div>
+    </section>
+
+    <section class="mt-4">
+      <div class="container">
+          <div class="text-center">
+              <button class="btn btn-lista-sorteio text-white" id="btnCapturarDados">✅ Ver lista do sorteio</button>
+          </div>
+          <pre id="containerDados"></pre>
+      </div>
+  </section>
+
+  <footer class="rodape mt-5">
+    <p class="text-center text-white mb-0">Todos direitos reservados 2021</p> 
+  </footer>
+
+    <!-- JavaScript (Opcional) -->
+    <script type="module" src="js/scprit.js"></script>
+    <!-- jQuery primeiro, depois Popper.js, depois Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
+  </body>
+</html>
