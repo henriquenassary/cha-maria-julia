@@ -32,7 +32,7 @@ async function iniciarAsync(number) {
     const numero = item.numero;
     if(number == item.numero) {
       if(item.nome != "") {
-        mostraPremiado.innerHTML = `Parabéns <span class="text-primary">${nome}</span> seu numero premiado ${numero}` ;
+        mostraPremiado.innerHTML = `Parabéns <span class="text-primary">${nome}</span> seu numero premiado foi o : ${numero}` ;
       }
       else {
         mostraPremiado.innerHTML = `Numero ainda disponivel para compra!` ;
@@ -42,8 +42,25 @@ async function iniciarAsync(number) {
   
 }
 
-const imgSorteio = document.querySelector("[data-img='sorteio']");
-imgSorteio.addEventListener('click', () => {
-  imgSorteio.classList.add('zoom-in');
-})
+async function numerosDisponiveis() {
+  const dadosResponse = await fetch('./json/lista-participantes.json');
+  const dadosJson = await dadosResponse.json();
+
+  dadosJson.forEach((item) => {
+    const nome = item.nome;
+    if(nome == "") {
+      const numerosDisponiveis = document.querySelector(".numeros-disponiveis");
+      const paragrafo = document.createElement("p");
+      const conteudo = document.createTextNode(item.numero);
+      paragrafo.appendChild(conteudo);
+      numerosDisponiveis.appendChild(paragrafo);
+    }
+  });
+  
+}
+
+const btnNumeroDisponiveis = document.querySelector('[data-btn="numeros-disponiveis"]');
+btnNumeroDisponiveis.addEventListener('click', () => {
+  numerosDisponiveis();
+});
 

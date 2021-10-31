@@ -1,5 +1,6 @@
 body {
   font-family: 'Dosis', sans-serif;
+  background-color: #EAE7DC;
 }
 
 .navbar {
@@ -34,12 +35,9 @@ body {
   font-weight: bold;
 }
 
-[data-img="sorteio"] {
-  height: 400px;
-}
-
-[data-img="sorteio"].zoom-in {
+[data-img="sorteio"]{
   height: 700px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .btn-sorteio {
@@ -47,7 +45,6 @@ body {
   background-color: #5eb2e6;
   color: white;
   border-radius: 3px;
-  text-transform: uppercase;
   padding: .75rem 1rem;
 }
 
