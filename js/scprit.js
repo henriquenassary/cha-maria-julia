@@ -32,7 +32,7 @@ async function iniciarAsync(number) {
     const numero = item.numero;
     if(number == item.numero) {
       if(item.nome != "") {
-        mostraPremiado.innerHTML = `Parabéns <span class="text-primary">${nome}</span> seu numero premiado foi o : ${numero}` ;
+        mostraPremiado.innerHTML = `Parabéns <span>${nome}</span> seu numero premiado foi o : <span>${numero}</span>` ;
       }
       else {
         mostraPremiado.innerHTML = `Numero ainda disponivel para compra!` ;
@@ -45,22 +45,36 @@ async function iniciarAsync(number) {
 async function numerosDisponiveis() {
   const dadosResponse = await fetch('./json/lista-participantes.json');
   const dadosJson = await dadosResponse.json();
+  const numerosDisponiveis = document.querySelector(".numeros-disponiveis");
+  
+  const paragrafoTotal = document.createElement("h2");
 
   dadosJson.forEach((item) => {
     const nome = item.nome;
     if(nome == "") {
-      const numerosDisponiveis = document.querySelector(".numeros-disponiveis");
-      const paragrafo = document.createElement("p");
-      const conteudo = document.createTextNode(item.numero);
+      const paragrafo = document.createElement("spam");
+      const conteudo = document.createTextNode(` ${item.numero} - `);
       paragrafo.appendChild(conteudo);
       numerosDisponiveis.appendChild(paragrafo);
+      numerosDisponiveis.appendChild(paragrafoTotal);
     }
   });
+
+  const totalItens = dadosJson.filter(item => {
+    return (item.nome === '');
+  });
+
+  const totalNumerosDisponiveis = document.querySelector(".numeros-disponiveis h2");
+  if(totalNumerosDisponiveis) {
+    totalNumerosDisponiveis.classList.add('d-block')
+    totalNumerosDisponiveis.innerText = `Total de números dispoínives : ${totalItens.length}`;
+  }
   
 }
 
 const btnNumeroDisponiveis = document.querySelector('[data-btn="numeros-disponiveis"]');
 btnNumeroDisponiveis.addEventListener('click', () => {
   numerosDisponiveis();
+  btnNumeroDisponiveis.disabled = true;
 });
 

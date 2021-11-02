@@ -163,7 +163,7 @@
   },
   {
     "id": "28",
-    "nome": "",
+    "nome": "Sebastião Vô",
     "numero": "28",
     "situacao": "NÃO PAGO"
   },
@@ -295,7 +295,7 @@
   },
   {
     "id": "50",
-    "nome": "",
+    "nome": "Bruno Botura",
     "numero": "50",
     "situacao": "NÃO PAGO"
   },
@@ -343,9 +343,9 @@
   },
   {
     "id": "58",
-    "nome": "",
+    "nome": "Marcelo Jaba",
     "numero": "58",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "59",
@@ -367,15 +367,15 @@
   },
   {
     "id": "62",
-    "nome": "",
+    "nome": "Bruno Botura",
     "numero": "62",
     "situacao": "NÃO PAGO"
   },
   {
     "id": "63",
-    "nome": "",
+    "nome": "Marcelo Jaba",
     "numero": "63",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "64",
@@ -409,9 +409,9 @@
   },
   {
     "id": "69",
-    "nome": "",
+    "nome": "Paulo Roca",
     "numero": "69",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "70",
@@ -457,9 +457,9 @@
   },
   {
     "id": "77",
-    "nome": "",
+    "nome": "Netão Futevolei",
     "numero": "77",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "78",
@@ -553,9 +553,9 @@
   },
   {
     "id": "93",
-    "nome": "",
+    "nome": "Paulo Roca",
     "numero": "93",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "94",
@@ -727,7 +727,7 @@
   },
   {
     "id": "122",
-    "nome": "",
+    "nome": "Sebastião Vô",
     "numero": "122",
     "situacao": "NÃO PAGO"
   },
@@ -937,15 +937,15 @@
   },
   {
     "id": "157",
-    "nome": "",
+    "nome": "Laiane Aquino",
     "numero": "157",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "158",
-    "nome": "",
+    "nome": "Laiane Aquino",
     "numero": "158",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "159",
@@ -1183,9 +1183,9 @@
   },
   {
     "id": "198",
-    "nome": "",
+    "nome": "Laiane Aquino",
     "numero": "198",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "199",

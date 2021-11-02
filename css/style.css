@@ -40,12 +40,18 @@ body {
   box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
-.btn-sorteio {
-  border: none;
-  background-color: #5eb2e6;
-  color: white;
-  border-radius: 3px;
-  padding: .75rem 1rem;
+.numero-aleatorio {
+  font-size: 48px;
+  color: #6f42c1;
+}
+
+.premiado {
+  font-size: 24px;
+}
+
+.premiado span {
+  font-weight: bold;
+  color: #6f42c1;
 }
 
 .btn-lista-sorteio{
