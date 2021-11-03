@@ -31,7 +31,7 @@
   },
   {
     "id": "6",
-    "nome": "",
+    "nome": "André Uemura",
     "numero": "6",
     "situacao": "NÃO PAGO"
   },
@@ -43,9 +43,9 @@
   },
   {
     "id": "8",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "8",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "9",
@@ -211,7 +211,7 @@
   },
   {
     "id": "36",
-    "nome": "",
+    "nome": "Maria Yamada",
     "numero": "36",
     "situacao": "NÃO PAGO"
   },
@@ -229,9 +229,9 @@
   },
   {
     "id": "39",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "39",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "40",
@@ -469,9 +469,9 @@
   },
   {
     "id": "79",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "79",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "80",
@@ -487,9 +487,9 @@
   },
   {
     "id": "82",
-    "nome": "",
+    "nome": "Fernando Cavazini",
     "numero": "82",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "83",
@@ -499,9 +499,9 @@
   },
   {
     "id": "84",
-    "nome": "",
+    "nome": "Fernando Cavazini",
     "numero": "84",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "85",
@@ -511,9 +511,9 @@
   },
   {
     "id": "86",
-    "nome": "",
+    "nome": "Fernando Cavazini",
     "numero": "86",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "87",
@@ -523,9 +523,9 @@
   },
   {
     "id": "88",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "88",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "89",
@@ -703,9 +703,9 @@
   },
   {
     "id": "118",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "118",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "119",
@@ -781,21 +781,21 @@
   },
   {
     "id": "131",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "131",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "132",
-    "nome": "",
+    "nome": "Guilherme Lopes",
     "numero": "132",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "133",
-    "nome": "",
+    "nome": "Guilherme Lopes",
     "numero": "133",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "134",
@@ -841,9 +841,9 @@
   },
   {
     "id": "141",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "141",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "142",
@@ -883,9 +883,9 @@
   },
   {
     "id": "148",
-    "nome": "",
+    "nome": "Célia Oyama",
     "numero": "148",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "149",
@@ -1009,9 +1009,9 @@
   },
   {
     "id": "169",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "169",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "170",
@@ -1051,7 +1051,7 @@
   },
   {
     "id": "176",
-    "nome": "Erika Nassary",
+    "nome": "Ademir Giovanini",
     "numero": "176",
     "situacao": "PAGO"
   },
@@ -1081,9 +1081,9 @@
   },
   {
     "id": "181",
-    "nome": "",
+    "nome": "Célia Oyama",
     "numero": "181",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "182",
@@ -1105,9 +1105,9 @@
   },
   {
     "id": "185",
-    "nome": "",
+    "nome": "Ademir Giovanini",
     "numero": "185",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "186",
@@ -1189,7 +1189,7 @@
   },
   {
     "id": "199",
-    "nome": "",
+    "nome": "Maria Yamada",
     "numero": "199",
     "situacao": "NÃO PAGO"
   }

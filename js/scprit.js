@@ -67,7 +67,7 @@ async function numerosDisponiveis() {
   const totalNumerosDisponiveis = document.querySelector(".numeros-disponiveis h2");
   if(totalNumerosDisponiveis) {
     totalNumerosDisponiveis.classList.add('d-block')
-    totalNumerosDisponiveis.innerText = `Total de números dispoínives : ${totalItens.length}`;
+    totalNumerosDisponiveis.innerText = `Total de números disponíveis : ${totalItens.length}`;
   }
   
 }
