@@ -27,13 +27,13 @@
     "id": "5",
     "nome": "Camila Nassary",
     "numero": "5",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "6",
     "nome": "André Uemura",
     "numero": "6",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "7",
@@ -75,7 +75,7 @@
     "id": "13",
     "nome": "Guilherme Oyama",
     "numero": "13",
-    "situacao": "PAGO"
+    "situacao": "NÃO PAGO"
   },
   {
     "id": "14",
@@ -111,7 +111,7 @@
     "id": "19",
     "nome": "Jorge Oyama",
     "numero": "19",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "20",
@@ -139,9 +139,9 @@
   },
   {
     "id": "24",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "24",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "25",
@@ -165,13 +165,13 @@
     "id": "28",
     "nome": "Sebastião Vô",
     "numero": "28",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "29",
     "nome": "Débora Nassary",
     "numero": "29",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "30",
@@ -181,9 +181,9 @@
   },
   {
     "id": "31",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "31",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "32",
@@ -207,7 +207,7 @@
     "id": "35",
     "nome": "Gustavo Show",
     "numero": "35",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "36",
@@ -223,9 +223,9 @@
   },
   {
     "id": "38",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "38",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "39",
@@ -241,15 +241,15 @@
   },
   {
     "id": "41",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "41",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "42",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "42",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "43",
@@ -265,27 +265,27 @@
   },
   {
     "id": "45",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "45",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "46",
     "nome": "Ronaldo DocFilm",
     "numero": "46",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "47",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "47",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "48",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "48",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "49",
@@ -319,9 +319,9 @@
   },
   {
     "id": "54",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "54",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "55",
@@ -337,9 +337,9 @@
   },
   {
     "id": "57",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "57",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "58",
@@ -391,21 +391,21 @@
   },
   {
     "id": "66",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "66",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "67",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "67",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "68",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "68",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "69",
@@ -417,25 +417,25 @@
     "id": "70",
     "nome": "Maria Oyama Tia",
     "numero": "70",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "71",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "71",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "72",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "72",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "73",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "73",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "74",
@@ -451,9 +451,9 @@
   },
   {
     "id": "76",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "76",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "77",
@@ -463,9 +463,9 @@
   },
   {
     "id": "78",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "78",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "79",
@@ -481,9 +481,9 @@
   },
   {
     "id": "81",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "81",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "82",
@@ -493,9 +493,9 @@
   },
   {
     "id": "83",
-    "nome": "",
+    "nome": "Lucas Buetto",
     "numero": "83",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "84",
@@ -507,7 +507,7 @@
     "id": "85",
     "nome": "Regina Jinzenji",
     "numero": "85",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "86",
@@ -547,7 +547,7 @@
   },
   {
     "id": "92",
-    "nome": "",
+    "nome": "Yudi Yamada",
     "numero": "92",
     "situacao": "NÃO PAGO"
   },
@@ -565,7 +565,7 @@
   },
   {
     "id": "95",
-    "nome": "",
+    "nome": "Lúcia Yamada",
     "numero": "95",
     "situacao": "NÃO PAGO"
   },
@@ -589,9 +589,9 @@
   },
   {
     "id": "99",
-    "nome": "",
+    "nome": "Murilo Neandro",
     "numero": "99",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "100",
@@ -601,7 +601,7 @@
   },
   {
     "id": "101",
-    "nome": "",
+    "nome": "Yudi Yamada",
     "numero": "101",
     "situacao": "NÃO PAGO"
   },
@@ -631,7 +631,7 @@
   },
   {
     "id": "106",
-    "nome": "",
+    "nome": "Lúcia Yamada",
     "numero": "106",
     "situacao": "NÃO PAGO"
   },
@@ -655,13 +655,13 @@
   },
   {
     "id": "110",
-    "nome": "",
+    "nome": "Ari Yonemoto",
     "numero": "110",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "111",
-    "nome": "",
+    "nome": "Iolanda Yamada",
     "numero": "111",
     "situacao": "NÃO PAGO"
   },
@@ -709,7 +709,7 @@
   },
   {
     "id": "119",
-    "nome": "",
+    "nome": "Lúcia Yamada",
     "numero": "119",
     "situacao": "NÃO PAGO"
   },
@@ -721,7 +721,7 @@
   },
   {
     "id": "121",
-    "nome": "",
+    "nome": "Iolanda Yamada",
     "numero": "121",
     "situacao": "NÃO PAGO"
   },
@@ -729,7 +729,7 @@
     "id": "122",
     "nome": "Sebastião Vô",
     "numero": "122",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "123",
@@ -751,7 +751,7 @@
   },
   {
     "id": "126",
-    "nome": "",
+    "nome": "Yudi Yamada",
     "numero": "126",
     "situacao": "NÃO PAGO"
   },
@@ -769,9 +769,9 @@
   },
   {
     "id": "129",
-    "nome": "",
+    "nome": "Betinho Nassary",
     "numero": "129",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "130",
@@ -789,13 +789,13 @@
     "id": "132",
     "nome": "Guilherme Lopes",
     "numero": "132",
-    "situacao": "PAGO"
+    "situacao": "NÃO PAGO"
   },
   {
     "id": "133",
     "nome": "Guilherme Lopes",
     "numero": "133",
-    "situacao": "PAGO"
+    "situacao": "NÃO PAGO"
   },
   {
     "id": "134",
@@ -871,9 +871,9 @@
   },
   {
     "id": "146",
-    "nome": "",
+    "nome": "Wilton DocFilm",
     "numero": "146",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "147",
@@ -885,7 +885,7 @@
     "id": "148",
     "nome": "Célia Oyama",
     "numero": "148",
-    "situacao": "PAGO"
+    "situacao": "NÃO PAGO"
   },
   {
     "id": "149",
@@ -919,9 +919,9 @@
   },
   {
     "id": "154",
-    "nome": "",
+    "nome": "Rodrigo Mychesys",
     "numero": "154",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "155",
@@ -955,7 +955,7 @@
   },
   {
     "id": "160",
-    "nome": "",
+    "nome": "Yudi Yamada",
     "numero": "160",
     "situacao": "NÃO PAGO"
   },
@@ -985,7 +985,7 @@
   },
   {
     "id": "165",
-    "nome": "",
+    "nome": "Lúcia Yamada",
     "numero": "165",
     "situacao": "NÃO PAGO"
   },
@@ -997,9 +997,9 @@
   },
   {
     "id": "167",
-    "nome": "",
+    "nome": "Silvia Nassary",
     "numero": "167",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "168",
@@ -1021,9 +1021,9 @@
   },
   {
     "id": "171",
-    "nome": "",
+    "nome": "Fernanda Rodrigo(Mychesys)",
     "numero": "171",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "172",
@@ -1083,7 +1083,7 @@
     "id": "181",
     "nome": "Célia Oyama",
     "numero": "181",
-    "situacao": "PAGO"
+    "situacao": "NÃO PAGO"
   },
   {
     "id": "182",
@@ -1099,7 +1099,7 @@
   },
   {
     "id": "184",
-    "nome": "",
+    "nome": "Lúcia Yamada",
     "numero": "184",
     "situacao": "NÃO PAGO"
   },
@@ -1111,9 +1111,9 @@
   },
   {
     "id": "186",
-    "nome": "",
+    "nome": "Ari Yonemoto",
     "numero": "186",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "187",
@@ -1123,15 +1123,15 @@
   },
   {
     "id": "188",
-    "nome": "",
+    "nome": "Yudi Yamada",
     "numero": "188",
     "situacao": "NÃO PAGO"
   },
   {
     "id": "189",
-    "nome": "",
+    "nome": "Murilo Neandro",
     "numero": "189",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "190",
@@ -1159,15 +1159,15 @@
   },
   {
     "id": "194",
-    "nome": "",
+    "nome": "Wilton DocFilm",
     "numero": "194",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "195",
-    "nome": "",
+    "nome": "Ricardo Inoue",
     "numero": "195",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "196",
