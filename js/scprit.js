@@ -87,7 +87,7 @@ async function devedores() {
     if(situacao == "NÃO PAGO" && item.nome != "") {
       
       const paragrafo = document.createElement("spam");
-      const conteudo = document.createTextNode(` ${item.nome} - R$10,00`);
+      const conteudo = document.createTextNode(` ${item.nome} - R$10,00 | `);
       paragrafo.appendChild(conteudo);
       containerDebitos.appendChild(paragrafo);
       containerDebitos.appendChild(debitosTotal);
@@ -110,5 +110,6 @@ btnNumeroDisponiveis.addEventListener('click', () => {
 const btnVerificaDebitos = document.querySelector('#btnVerificaDebito');
 btnVerificaDebitos.addEventListener('click', () => {
   devedores();
+  btnVerificaDebitos.disabled = true;
 });
 
