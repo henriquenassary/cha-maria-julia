@@ -46,7 +46,7 @@ async function numerosDisponiveis() {
   const dadosResponse = await fetch('./json/lista-participantes.json');
   const dadosJson = await dadosResponse.json();
   const numerosDisponiveis = document.querySelector(".numeros-disponiveis");
-  
+
   const paragrafoTotal = document.createElement("h2");
 
   dadosJson.forEach((item) => {
@@ -72,9 +72,43 @@ async function numerosDisponiveis() {
   
 }
 
+async function devedores() {
+  const dadosResponse = await fetch('./json/lista-participantes.json');
+  const dadosJson = await dadosResponse.json();
+  const containerDebitos = document.querySelector('.containerDebitos');
+  const debitosTotal = document.createElement("h2");
+
+  const totalDevedor = dadosJson.filter(item => {
+    return (item.situacao === 'NÃO PAGO' && item.nome != "");
+  });
+
+  dadosJson.forEach((item) => {
+    const situacao = item.situacao;
+    if(situacao == "NÃO PAGO" && item.nome != "") {
+      
+      const paragrafo = document.createElement("spam");
+      const conteudo = document.createTextNode(` ${item.nome} - R$10,00`);
+      paragrafo.appendChild(conteudo);
+      containerDebitos.appendChild(paragrafo);
+      containerDebitos.appendChild(debitosTotal);
+      
+    }
+  });
+
+  const somaTotal = parseInt(totalDevedor.length) * 10;
+  
+  debitosTotal.innerText = `Total para receber : R$${somaTotal},00`;
+
+}
+
 const btnNumeroDisponiveis = document.querySelector('[data-btn="numeros-disponiveis"]');
 btnNumeroDisponiveis.addEventListener('click', () => {
   numerosDisponiveis();
   btnNumeroDisponiveis.disabled = true;
+});
+
+const btnVerificaDebitos = document.querySelector('#btnVerificaDebito');
+btnVerificaDebitos.addEventListener('click', () => {
+  devedores();
 });
 
