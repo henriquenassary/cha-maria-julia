@@ -12,7 +12,7 @@ const mostraNumeroAleatorio = document.querySelector('.numero-aleatorio');
 const mostraPremiado = document.querySelector('.premiado');
 btnGeraNumero.addEventListener('click', () => {
   let min = Math.ceil(1);
-  let max = Math.floor(211);
+  let max = Math.floor(231);
   const mostraNumber =  Math.floor(Math.random() * (max - min) + min);
   mostraNumeroAleatorio.innerText = mostraNumber;
   iniciarAsync(mostraNumber);
