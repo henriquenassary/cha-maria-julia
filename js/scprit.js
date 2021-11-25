@@ -10,6 +10,7 @@ document.querySelector("#btnCapturarDados").addEventListener("click", () => {
 const btnGeraNumero = document.querySelector('[data-gera="numero"]');
 const mostraNumeroAleatorio = document.querySelector('.numero-aleatorio');
 const mostraPremiado = document.querySelector('.premiado');
+const primeiroGanhador = document.querySelector('.primeiro-ganhador');
 btnGeraNumero.addEventListener('click', () => {
   let min = Math.ceil(1);
   let max = Math.floor(231);
@@ -33,6 +34,7 @@ async function iniciarAsync(number) {
     if(number == item.numero) {
       if(item.nome != "") {
         mostraPremiado.innerHTML = `Parabéns <span>${nome}</span> seu numero premiado foi o : <span>${numero}</span>` ;
+        primeiroGanhador.innerHTML = `${nome}`
       }
       else {
         mostraPremiado.innerHTML = `Numero ainda disponivel para compra!` ;

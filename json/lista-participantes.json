@@ -213,7 +213,7 @@
     "id": "36",
     "nome": "Maria Yamada",
     "numero": "36",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "37",
@@ -567,7 +567,7 @@
     "id": "95",
     "nome": "Lúcia Yamada",
     "numero": "95",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "96",
@@ -633,7 +633,7 @@
     "id": "106",
     "nome": "Lúcia Yamada",
     "numero": "106",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "107",
@@ -663,7 +663,7 @@
     "id": "111",
     "nome": "Iolanda Yamada",
     "numero": "111",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "112",
@@ -711,7 +711,7 @@
     "id": "119",
     "nome": "Lúcia Yamada",
     "numero": "119",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "120",
@@ -723,7 +723,7 @@
     "id": "121",
     "nome": "Iolanda Yamada",
     "numero": "121",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "122",
@@ -741,7 +741,7 @@
     "id": "124",
     "nome": "Carlos Montador",
     "numero": "124",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "125",
@@ -849,7 +849,7 @@
     "id": "142",
     "nome": "Neto Assis",
     "numero": "142",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "143",
@@ -909,7 +909,7 @@
     "id": "152",
     "nome": "Carlos Montador",
     "numero": "152",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "153",
@@ -987,7 +987,7 @@
     "id": "165",
     "nome": "Lúcia Yamada",
     "numero": "165",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "166",
@@ -1005,7 +1005,7 @@
     "id": "168",
     "nome": "Neto Assis",
     "numero": "168",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "169",
@@ -1101,7 +1101,7 @@
     "id": "184",
     "nome": "Lúcia Yamada",
     "numero": "184",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   },
   {
     "id": "185",
@@ -1191,7 +1191,7 @@
     "id": "199",
     "nome": "Maria Yamada",
     "numero": "199",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   }
   ,
   {
@@ -1261,7 +1261,7 @@
     "id": "209",
     "nome": "Neto Assis",
     "numero": "209",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   }
   ,
   {
@@ -1294,7 +1294,7 @@
   ,
   {
     "id": "214",
-    "nome": "",
+    "nome": "Eva Okada",
     "numero": "214",
     "situacao": "NÃO PAGO"
   }
@@ -1317,7 +1317,7 @@
     "id": "217",
     "nome": "Monise Barbosa",
     "numero": "217",
-    "situacao": "NÃO PAGO"
+    "situacao": "PAGO"
   }
   ,
   {
@@ -1336,7 +1336,7 @@
   ,
   {
     "id": "220",
-    "nome": "",
+    "nome": "Daiane Hukumoto",
     "numero": "220",
     "situacao": "NÃO PAGO"
   }
