@@ -44,36 +44,6 @@ async function iniciarAsync(number) {
   
 }
 
-async function numerosDisponiveis() {
-  const dadosResponse = await fetch('./json/lista-participantes.json');
-  const dadosJson = await dadosResponse.json();
-  const numerosDisponiveis = document.querySelector(".numeros-disponiveis");
-
-  const paragrafoTotal = document.createElement("h2");
-
-  dadosJson.forEach((item) => {
-    const nome = item.nome;
-    if(nome == "") {
-      const paragrafo = document.createElement("spam");
-      const conteudo = document.createTextNode(` ${item.numero} - `);
-      paragrafo.appendChild(conteudo);
-      numerosDisponiveis.appendChild(paragrafo);
-      numerosDisponiveis.appendChild(paragrafoTotal);
-    }
-  });
-
-  const totalItens = dadosJson.filter(item => {
-    return (item.nome === '');
-  });
-
-  const totalNumerosDisponiveis = document.querySelector(".numeros-disponiveis h2");
-  if(totalNumerosDisponiveis) {
-    totalNumerosDisponiveis.classList.add('d-block')
-    totalNumerosDisponiveis.innerText = `Total de números disponíveis : ${totalItens.length}`;
-  }
-  
-}
-
 async function devedores() {
   const dadosResponse = await fetch('./json/lista-participantes.json');
   const dadosJson = await dadosResponse.json();
@@ -102,12 +72,6 @@ async function devedores() {
   debitosTotal.innerText = `Total para receber : R$${somaTotal},00`;
 
 }
-
-const btnNumeroDisponiveis = document.querySelector('[data-btn="numeros-disponiveis"]');
-btnNumeroDisponiveis.addEventListener('click', () => {
-  numerosDisponiveis();
-  btnNumeroDisponiveis.disabled = true;
-});
 
 const btnVerificaDebitos = document.querySelector('#btnVerificaDebito');
 btnVerificaDebitos.addEventListener('click', () => {
