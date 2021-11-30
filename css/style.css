@@ -75,7 +75,7 @@ img {
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
   background: linear-gradient(#6f42c1, #CF8BF3);
-  border-top: 3px solid #007bff;
+  border-top: 3px solid white;
 }
 
 .model-two {
@@ -85,8 +85,8 @@ img {
   border-radius: 10px;
   box-shadow: 0px 6px 10px rgba(0, 0, 0, 0.25);
   transition: all 0.2s;
-  background: linear-gradient(#6f42c1, #CF8BF3);
-  border-top: 3px solid #007bff;
+  background: linear-gradient(#DA22FF, #9733EE);
+  border-top: 3px solid white;
 }
 
 [data-img="sorteio"]{
@@ -98,6 +98,10 @@ img {
 .segundo-numero {
   font-size: 48px;
   color: #6f42c1;
+}
+
+.segundo-numero {
+  color: #DA22FF;
 }
 
 .premiado {
@@ -128,9 +132,26 @@ img {
     height: auto;
   }
 
-  .about img {
+  .about .col-lg-auto.col-12 img{
     max-height: none;   
     width: 100%;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+  }
+
+  .model-one {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .model-two {
+    margin: 15px;
+    padding: 10px;
+    border-radius: 8px;
+  }
+
+  .primeiro-numero,
+  .segundo-numero {
+  font-size: 32px;
   }
 }
