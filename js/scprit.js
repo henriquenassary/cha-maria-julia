@@ -7,21 +7,42 @@ document.querySelector("#btnCapturarDados").addEventListener("click", () => {
   document.querySelector("#containerDados").innerHTML = JSON.stringify(participantes,undefined, 4);
 });
 
-const btnGeraNumero = document.querySelector('[data-gera="numero"]');
-const mostraNumeroAleatorio = document.querySelector('.numero-aleatorio');
-const mostraPremiado = document.querySelector('.premiado');
+const btnPrimeiroGanhador = document.querySelector('[data-gera="numero"]');
+const btnSegundoGanhador = document.querySelector('[data-gera="segundo"]');
+const primeiroNumero = document.querySelector('.primeiro-numero');
+const segundoNumero = document.querySelector('.segundo-numero');
 const primeiroGanhador = document.querySelector('.primeiro-ganhador');
-btnGeraNumero.addEventListener('click', () => {
+const segundoGanhador = document.querySelector('.segundo-ganhador');
+const contentOne = document.querySelector('.model-one');
+const contentTwo = document.querySelector('.model-two');
+let mostraNumber;
+btnPrimeiroGanhador.addEventListener('click', geraPrimeiroGanhador);
+btnSegundoGanhador.addEventListener('click', geraSegundoGanhador);
+const primeiro = 'primeiro';
+const segundo = 'segundo';
+
+function geraNumberClick() {
   let min = Math.ceil(1);
   let max = Math.floor(231);
-  const mostraNumber =  Math.floor(Math.random() * (max - min) + min);
-  mostraNumeroAleatorio.innerText = mostraNumber;
-  iniciarAsync(mostraNumber);
-});
+  mostraNumber = Math.floor(Math.random() * (max - min) + min);
+}
+
+function geraPrimeiroGanhador() {
+  geraNumberClick();
+  iniciarAsync(mostraNumber, primeiro);
+  primeiroNumero.innerHTML = `O primeiro número sorteado foi o : <b>${mostraNumber}</b>`;
+}
+
+function geraSegundoGanhador() {
+  geraNumberClick();
+  iniciarAsync(mostraNumber, segundo);
+  segundoNumero.innerHTML = `O segundo número sorteado foi o : <b>${mostraNumber}</b>`;
+}
 
 
 //async e await
-async function iniciarAsync(number) {
+async function iniciarAsync(number, content) {
+  
   const dadosResponse = await fetch('./json/lista-participantes.json');
   const dadosJson = await dadosResponse.json();
   document.querySelector("#btnCapturarDados").addEventListener("click", () => {
@@ -33,11 +54,18 @@ async function iniciarAsync(number) {
     const numero = item.numero;
     if(number == item.numero) {
       if(item.nome != "") {
-        mostraPremiado.innerHTML = `Parabéns <span>${nome}</span> seu numero premiado foi o : <span>${numero}</span>` ;
-        primeiroGanhador.innerHTML = `${nome}`
-      }
-      else {
-        mostraPremiado.innerHTML = `Numero ainda disponivel para compra!` ;
+        if(content == 'primeiro') {
+          contentOne.classList.remove('d-none');
+          primeiroGanhador.innerHTML = `<b>1º ganhador:</b> Parabéns <span>${nome}</span> seu número premiado foi o : <span>${numero}</span>` ;
+          btnPrimeiroGanhador.disabled = true;
+        } else if(content == 'segundo') {
+          contentTwo.classList.remove('d-none');
+          segundoGanhador.innerHTML = ` <b>2º ganhador:</b> Parabéns <span>${nome}</span> seu número premiado foi o : <span>${numero}</span>`;
+          btnSegundoGanhador.disabled = true;
+
+        }
+        
+        
       }
     }
   });
